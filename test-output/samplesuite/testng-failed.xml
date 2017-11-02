@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [samplesuite]">
+  <test name="test1(failed)">
+    <classes>
+      <class name="com.phptravel.tests.VerifyManageTours">
+        <methods>
+          <include name="launchApp"/>
+          <include name="testApp"/>
+        </methods>
+      </class> <!-- com.phptravel.tests.VerifyManageTours -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [samplesuite] -->
